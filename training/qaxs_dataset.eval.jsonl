@@ -1,0 +1,41 @@
+{"shell": "qax", "os": "macos", "request": "find all json files in home directory", "command": "find {HOME} -type f -name \"*.json\""}
+{"shell": "cmd", "os": "windows", "request": "find all pngs in home folder", "command": "dir /b /s \"{HOME}\\*.png\""}
+{"shell": "qax", "os": "macos", "request": "find all json files in my desktop", "command": "find {DESKTOP} -type f -name \"*.json\""}
+{"shell": "qax", "os": "linux", "request": "search home folder for text files", "command": "find {HOME} -type f -name \"*.txt\""}
+{"shell": "qax", "os": "linux", "request": "find all pngs in this folder", "command": "find {CWD} -type f -name \"*.png\""}
+{"shell": "bash", "os": "linux", "request": "find all pngs in home directory", "command": "find {HOME} -type f -name \"*.png\""}
+{"shell": "qax", "os": "linux", "request": "delete all .log files in documents", "command": "rm {DOCUMENTS}/*.log"}
+{"shell": "qax", "os": "linux", "request": "search desktop for jpgs", "command": "find {DESKTOP} -type f -name \"*.jpg\""}
+{"shell": "qax", "os": "windows", "request": "list every PDFs in desktop recursively", "command": "find {DESKTOP} -type f -name \"*.pdf\""}
+{"shell": "qax", "os": "linux", "request": "move all jpgs in downloads into an archive folder", "command": "mkdir -p archive; mv {DOWNLOADS}/*.jpg archive/"}
+{"shell": "qax", "os": "windows", "request": "find files bigger than 500MB in documents folder", "command": "find {DOCUMENTS} -type f -size +500M"}
+{"shell": "qax", "os": "windows", "request": "move all zip archives in documents into an archive folder", "command": "mkdir -p archive; mv {DOCUMENTS}/*.zip archive/"}
+{"shell": "cmd", "os": "windows", "request": "find all markdown files in documents", "command": "dir /b /s \"{DOCUMENTS}\\*.md\""}
+{"shell": "qax", "os": "windows", "request": "search my downloads for jpgs", "command": "find {DOWNLOADS} -type f -name \"*.jpg\""}
+{"shell": "zsh", "os": "linux", "request": "find all jpgs in my documents", "command": "find {DOCUMENTS} -type f -name \"*.jpg\""}
+{"shell": "qax", "os": "windows", "request": "search downloads for zip archives", "command": "find {DOWNLOADS} -type f -name \"*.zip\""}
+{"shell": "qax", "os": "macos", "request": "find all zip archives in documents", "command": "find {DOCUMENTS} -type f -name \"*.zip\""}
+{"shell": "qax", "os": "windows", "request": "locate architecture.md on the downloads and open it", "command": "open $(find {DOWNLOADS} -type f -name \"architecture.md\")"}
+{"shell": "qax", "os": "windows", "request": "find todo.md in documents folder and open it", "command": "open $(find {DOCUMENTS} -type f -name \"todo.md\")"}
+{"shell": "powershell", "os": "windows", "request": "find all markdown files in downloads", "command": "Get-ChildItem -Path \"{DOWNLOADS}\" -Filter *.md -Recurse"}
+{"shell": "qax", "os": "macos", "request": "find architecture.md in my documents and open it", "command": "open $(find {DOCUMENTS} -type f -name \"architecture.md\")"}
+{"shell": "cmd", "os": "windows", "request": "find all videos in documents", "command": "dir /b /s \"{DOCUMENTS}\\*.mp4\""}
+{"shell": "qax", "os": "windows", "request": "move all jpgs in here into an archive folder", "command": "mkdir -p archive; mv {CWD}/*.jpg archive/"}
+{"shell": "powershell", "os": "windows", "request": "find all zip archives in here", "command": "Get-ChildItem -Path \"{CWD}\" -Filter *.zip -Recurse"}
+{"shell": "qax", "os": "macos", "request": "find all videos in my downloads", "command": "find {DOWNLOADS} -type f -name \"*.mp4\""}
+{"shell": "powershell", "os": "windows", "request": "show files larger than 1GB in my downloads", "command": "Get-ChildItem -Path \"{DOWNLOADS}\" -Recurse | Where-Object { $_.Length -gt 1GB }"}
+{"shell": "qax", "os": "windows", "request": "list every PDFs in the current directory recursively", "command": "find {CWD} -type f -name \"*.pdf\""}
+{"shell": "bash", "os": "macos", "request": "find all videos in home directory", "command": "find {HOME} -type f -name \"*.mp4\""}
+{"shell": "qax", "os": "windows", "request": "find all PDFs in desktop", "command": "find {DESKTOP} -type f -name \"*.pdf\""}
+{"shell": "powershell", "os": "windows", "request": "find all jpgs in home folder", "command": "Get-ChildItem -Path \"{HOME}\" -Filter *.jpg -Recurse"}
+{"shell": "qax", "os": "linux", "request": "find all PDFs in documents folder", "command": "find {DOCUMENTS} -type f -name \"*.pdf\""}
+{"shell": "qax", "os": "linux", "request": "find all text files in my downloads", "command": "find {DOWNLOADS} -type f -name \"*.txt\""}
+{"shell": "bash", "os": "macos", "request": "show files larger than 1GB in home folder", "command": "find {HOME} -type f -size +1G"}
+{"shell": "cmd", "os": "windows", "request": "find all jpgs in here", "command": "dir /b /s \"{CWD}\\*.jpg\""}
+{"shell": "powershell", "os": "windows", "request": "find all videos in here", "command": "Get-ChildItem -Path \"{CWD}\" -Filter *.mp4 -Recurse"}
+{"shell": "qax", "os": "macos", "request": "list every jpgs in the current directory recursively", "command": "find {CWD} -type f -name \"*.jpg\""}
+{"shell": "powershell", "os": "windows", "request": "find all zip archives in downloads", "command": "Get-ChildItem -Path \"{DOWNLOADS}\" -Filter *.zip -Recurse"}
+{"shell": "cmd", "os": "windows", "request": "find all jpgs in home directory", "command": "dir /b /s \"{HOME}\\*.jpg\""}
+{"shell": "qax", "os": "linux", "request": "search downloads folder for jpgs", "command": "find {DOWNLOADS} -type f -name \"*.jpg\""}
+{"shell": "bash", "os": "macos", "request": "show files larger than 1GB in home directory", "command": "find {HOME} -type f -size +1G"}
+{"shell": "qax", "os": "linux", "request": "delete all .log files in my downloads", "command": "rm {DOWNLOADS}/*.log"}

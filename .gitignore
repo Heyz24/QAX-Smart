@@ -1,0 +1,7 @@
+node_modules/
+dist/
+dist-bin/
+dist-installers/
+models/*.gguf
+*.log
+.DS_Store

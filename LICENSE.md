@@ -1,0 +1,57 @@
+QAX-SMART SOFTWARE LICENSE AGREEMENT
+Copyright (c) 2026 Harshal. All rights reserved.
+
+PRODUCT: QAX-Smart (`qaxs`) — Natural-Language Command Generator (Binary Distribution)
+
+BY DOWNLOADING, INSTALLING, OR USING THIS SOFTWARE, YOU AGREE TO BE BOUND BY
+THE FOLLOWING TERMS AND CONDITIONS:
+
+1. GRANT OF LICENSE
+Harshal grants you a non-exclusive, non-transferable, royalty-free license
+to download, install, and use the compiled binary version of QAX-Smart
+(`qaxs`) for personal, educational, or internal operational use.
+
+2. NO SOURCE CODE ACCESS
+This software is distributed strictly as a pre-compiled executable binary.
+No source code is provided with this distribution.
+
+3. RESTRICTIONS
+You explicitly agree NOT to:
+   a. Decompile, disassemble, reverse engineer, or attempt to derive the
+      source code of the QAX-Smart binary.
+   b. Modify, adapt, tamper with, or create derivative works based upon the
+      software.
+   c. Rent, lease, sublicense, resell, or commercially exploit the software
+      without prior written authorization from Harshal.
+   d. Remove or alter any copyright notices, trademarks, or authorship
+      credits embedded in the software or documentation.
+
+4. OWNERSHIP AND INTELLECTUAL PROPERTY
+QAX-Smart, including its code structure, binary architecture, prompt
+design, and documentation, remains the sole and exclusive intellectual
+property of Harshal. This license does not grant you any ownership rights.
+
+5. THIRD-PARTY COMPONENTS
+QAX-Smart embeds or links against third-party open-source components
+(a local language model and supporting runtime libraries) that remain
+under their own original licenses regardless of Section 2 above. See
+THIRD_PARTY_LICENSES.md, distributed alongside this software, for the
+full list and required notices. Nothing in this Agreement modifies or
+restricts your rights under those separate licenses with respect to
+those specific components.
+
+6. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL
+THE AUTHOR (HARSHAL) BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF
+OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+7. GENERATED COMMAND EXECUTION
+QAX-Smart generates shell commands using a local AI model and always
+requires your explicit confirmation before executing anything. You are
+solely responsible for reviewing and choosing to execute any command it
+proposes. Harshal is not liable for any outcome of a command you chose
+to execute, confirmed or otherwise.

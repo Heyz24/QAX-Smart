@@ -1,0 +1,32 @@
+name: qaxs
+base: core22
+version: '0.5.0'
+summary: Offline natural-language to shell-command compiler
+description: |
+  QAX-Smart converts natural-language requests into a single validated
+  shell command for QAX, Bash, or Zsh, using a fully local Qwen2.5-Coder
+  model via llama.cpp. Fully offline at runtime; no telemetry.
+
+  Packaged from the portable distribution (scripts/build-portable.sh) -
+  bundles its own Node.js runtime and node_modules (including
+  node-llama-cpp's native binary), so the snap needs no other Node.js
+  dependency declared. @yao-pkg/pkg was tried and confirmed non-viable
+  for this project (node-llama-cpp is ESM-only; pkg cannot dynamically
+  import ESM code) - see the project's HANDOFF.md for the full story.
+grade: stable
+confinement: strict
+
+apps:
+  qaxs:
+    command: qaxs
+    plugs:
+      - home        # needs to read/write in the user's home (Downloads, Documents, Desktop)
+
+parts:
+  qaxs:
+    plugin: dump
+    # Built via: scripts/build-portable.sh dist-portable/linux-x64
+    # (run on Linux, or a Linux-x64 build environment) BEFORE running
+    # snapcraft. Must contain: qaxs (launcher), node-runtime, dist/,
+    # node_modules/, models/, LICENSE.md, THIRD_PARTY_LICENSES.md.
+    source: ../../../dist-portable/linux-x64/

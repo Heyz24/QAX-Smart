@@ -1,0 +1,11 @@
+Package: qaxs
+Version: 0.1.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: libc6 (>= 2.31)
+Maintainer: Harshal <you@example.com>
+Description: QAX-Smart - offline natural-language to shell-command compiler
+ Converts natural-language requests into a single validated shell command
+ for QAX, Bash, or Zsh, using a fully local Qwen2.5-Coder model via
+ llama.cpp. No network access required at runtime.
